@@ -1,7 +1,8 @@
-import streamlit as st
-import pickle
 import nltk
 nltk.data.path.append("nltk_data")
+import streamlit as st
+import pickle
+
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import string
