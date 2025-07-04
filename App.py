@@ -1,6 +1,6 @@
 import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
+nltk.download('punkt', quiet=True)  # Fixes tokenizer error
+nltk.download('stopwords', quiet=True)  # For spam detection
 nltk.data.path.append("nltk_data")
 import streamlit as st
 import pickle
