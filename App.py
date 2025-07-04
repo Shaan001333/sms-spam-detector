@@ -4,7 +4,10 @@ nltk.download('stopwords', quiet=True)  # For spam detection
 nltk.data.path.append("nltk_data")
 import streamlit as st
 import pickle
-
+import os
+if not os.path.exists('/root/nltk_data'):
+    nltk.download('punkt', download_dir='/root/nltk_data')
+    nltk.download('stopwords', download_dir='/root/nltk_data')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import string
