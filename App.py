@@ -1,4 +1,5 @@
 import nltk
+nltk.download('punkt')
 nltk.data.path.append("nltk_data")
 import streamlit as st
 import pickle
@@ -8,7 +9,7 @@ from nltk.tokenize import word_tokenize
 import string
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
-nltk.download('punkt')
+
 nltk.download('stopwords')
 
 def transform_text(text):
