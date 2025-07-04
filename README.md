@@ -12,7 +12,7 @@ Built using:
 
 ## 🚀 Live Demo
 
-👉 [Add your deployed app link here once hosted]
+👉 https://sms-spam-detector-enkrrje88ghokwkyxocbzc.streamlit.app/
 
 ---
 
