@@ -1,2 +1,38 @@
-# sms-spam-detector
-This is a simple stream lit app based on multinomial naive bayes classifier model trained on kaggle datasets to detect whether a message is spam or not
+
+# 📩 Spam SMS Detector (ML + Streamlit)
+
+A simple web app that uses Machine Learning to detect whether an SMS message is **spam** or **not spam** — all in real-time!
+
+Built using:
+- 🧠 Scikit-learn for training the model
+- 📝 NLTK for text preprocessing
+- 🌐 Streamlit for the user interface
+
+---
+
+## 🚀 Live Demo
+
+👉 [Add your deployed app link here once hosted]
+
+---
+
+## 📦 Project Structure
+
+| File              | Description                          |
+|-------------------|--------------------------------------|
+| `app.py`          | Streamlit app script                 |
+| `model.pkl`       | Trained spam classification model    |
+| `vectorizer.pkl`  | TF-IDF vectorizer used in training   |
+| `requirements.txt`| Python package dependencies          |
+| `.gitignore`      | Files and folders to ignore in Git   |
+| `nltk.txt`        | (Optional) For NLTK downloads         |
+
+---
+
+## ⚙️ How to Run Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Shaan001333/spam-sms-detector.git
+   cd spam-sms-detector
